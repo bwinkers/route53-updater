@@ -1,0 +1,36 @@
+{
+  "name": "route53-updater",
+  "version": "0.1.0",
+  "description": "Simply adds a weighted A record to a give zones hostname.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.262.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwinkers/route53-updater.git"
+  },
+  "keywords": [
+    "AWS",
+    "Route",
+    "53",
+    "DNS",
+    "Auto",
+    "Scaling",
+    "Group",
+    "ASG"
+  ],
+  "author": "Brian Winkers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwinkers/route53-updater/issues"
+  },
+  "homepage": "https://github.com/bwinkers/route53-updater#readme"
+}
