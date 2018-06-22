@@ -1,5 +1,7 @@
 var AWS = require('aws-sdk');
 
+var route53 = new AWS.Route53();
+
 module.exports = function addRecord(zone, hostname, ip, identifier, weight=100, ttl=60) {
   
   // Create a healthcheck
